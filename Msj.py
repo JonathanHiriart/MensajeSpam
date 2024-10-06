@@ -5,10 +5,8 @@ from time import sleep
 
 # Define a dictionary of brothers and their phone numbers
 bro = {
-    'whisky': 56950787048,
-    'yo': 542923483021,
-    'yelo': 56950871544,
-    'valen': 5492337401674,
+    //ingrese los numeros de sus bros con sus nombres
+    // 'nombre', numero
 }
 
 # Function to generate the WhatsApp URL for a given phone number
@@ -23,7 +21,7 @@ for nombre in bro:
     print(nombre)
 
 # Ask the user to choose a brother to send a message to
-bro_elegido = input("Elija a qué pendejo desea enviar un mensaje: ")
+bro_elegido = input("eliga a tu bro para mandarle un msg:  ")
 
 # If the chosen brother is in the list, open the WhatsApp URL and send a message
 if bro_elegido in bro:
@@ -34,6 +32,6 @@ if bro_elegido in bro:
         pyautogui.typewrite('funciono jeje')
         pyautogui.press('enter')
 else:
-    print("El pendejo seleccionado no está en la lista.")
+    print("tu bro no esta en la lista.")
 #
 #This code defines a dictionary of brothers and their phone numbers. It then prints the available brothers and asks the user to choose one to send a message to. If the chosen brother is in the list, the code opens the WhatsApp URL for that brother and sends a message..</s>
